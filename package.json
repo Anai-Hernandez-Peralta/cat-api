@@ -1,0 +1,12 @@
+{
+  "name": "cat-api",
+  "version": "1.0.0",
+  "description": "\"Página web donde se consume un API\"",
+  "main": "index.js",
+  "repository": "git@github.com:Anai-Hernandez-Peralta/cat-api.git",
+  "author": "Anai Hernández Peralta <anaihernandezperalta@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
