@@ -6,6 +6,9 @@
   "repository": "git@github.com:Anai-Hernandez-Peralta/cat-api.git",
   "author": "Anai Hernández Peralta <anaihernandezperalta@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build":"npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
