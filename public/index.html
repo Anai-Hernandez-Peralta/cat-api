@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=REM:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="output.css">
     <title>Cat Api</title>
 </head>
 <body>
-    <header class="flex w-full justify-evenly pt-8 items-center">
+    <header class="flex w-full justify-evenly py-8 items-center bg-amarillo-cremita">
         <div class="logo">
             <img src="./assets/logo.svg" alt="">
         </div>
         <nav class="lista">
             <ul class="flex w-[500px] justify-between" >
-                <li>Watch</li>
-                <li>Shop</li>
-                <li>Comics</li>
-                <li>About</li>
-                <li>Entertain</li>
-                <li>Simon's Diary</li>
+                <li class="font-bold">Shop</li>
+                <li class="font-bold">Comics</li>
+                <li class="font-bold">Watch</li>
+                <li class="font-bold">About</li>
+                <li class="font-bold">Entertain</li>
+                <li class="font-bold">Simon's Diary</li>
             </ul>
         </nav>
         <div class="buscador">
@@ -27,5 +30,14 @@
             <span></span>
         </div>
     </header>
+    <main class="w-full h-screen bg-amarillo-cremita flex justify-evenly items-center">
+        <img class="w-1/2" src="./assets/cat.svg" alt="">
+        <article class="self-start">
+            <h1 class="uppercase text-[180px] font-bold font-REM">Meow!</h1>
+            <p>Bienvenido al sitio web NO oficial de Simon's Cat.
+            </p>
+            <button>Watch</button>
+        </article>
+    </main>
 </body>
 </html>
